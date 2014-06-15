@@ -168,7 +168,7 @@ summary(steps_per_day$Freq)
 ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
 ##       0    6780   10400    9350   12800   21200
 ```
-Imputing the missing data had a significant affect on both the first quartile and the mean, with little to no effect on the third quartile. In both cases, the first quartile and median were significantly increased.
+Imputing the missing data had a significant affect on both the first quartile and the mean, with little to no effect on the third quartile. In both cases, the first quartile and mean were significantly increased.
 
 ---------------------------------------------------------------------
  Are there differences in activity patterns - weekdays vs weekends?

@@ -101,7 +101,7 @@ Compare these statistics to the same statistics derived from the dataset with **
 ```{r}
 summary(steps_per_day$Freq)
 ```
-Imputing the missing data had a significant affect on both the first quartile and the mean, with little to no effect on the third quartile. In both cases, the first quartile and median were significantly increased.
+Imputing the missing data had a significant affect on both the first quartile and the mean, with little to no effect on the third quartile. In both cases, the first quartile and mean were significantly increased.
 
 ---------------------------------------------------------------------
  Are there differences in activity patterns - weekdays vs weekends?
