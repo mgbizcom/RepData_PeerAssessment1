@@ -168,7 +168,7 @@ summary(steps_per_day$Freq)
 ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
 ##       0    6780   10400    9350   12800   21200
 ```
-Imputing the missing data had a significant affect on both the first quartile and the mean, with little to no effect on the third quartile. In both cases, the fisrt quartile and median were significantly increased.
+Imputing the missing data had a significant affect on both the first quartile and the mean, with little to no effect on the third quartile. In both cases, the first quartile and median were significantly increased.
 
 ---------------------------------------------------------------------
  Are there differences in activity patterns - weekdays vs weekends?
@@ -196,6 +196,7 @@ qplot(data=steps_per_interval,
 ```
 
 ![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14.png) 
+
 In order to more easily compare activity patterns between weekdays and weekends, both factors were plotted on the same chart.
 
 ```r
@@ -213,6 +214,6 @@ qplot(data=steps_per_interval,
 ![plot of chunk unnamed-chunk-15](figure/unnamed-chunk-15.png) 
 
 When comparing the activity patterns between weekdays and weekends, a couple of interesting facts appear:
-  1. Activity levels durring weekend morning hours is less than those on the weekday.
-  2. Activity levels durring weenend afternoon hours is greater than hose on the weekday.
+  1. Activity levels during weekend morning hours is less than those on the weekday.
+  2. Activity levels during weekend afternoon hours is greater than hose on the weekday.
   3. Peak activity for both the weekends and weekdays occurs around the noon hour.
