@@ -215,5 +215,5 @@ qplot(data=steps_per_interval,
 
 When comparing the activity patterns between weekdays and weekends, a couple of interesting facts appear:
   1. Activity levels during weekend morning hours is less than those on the weekday.
-  2. Activity levels during weekend afternoon hours is greater than hose on the weekday.
+  2. Activity levels during weekend afternoon hours is greater than those on the weekday.
   3. Peak activity for both the weekends and weekdays occurs around the noon hour.
